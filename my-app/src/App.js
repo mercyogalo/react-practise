@@ -2,7 +2,7 @@ import React from 'react';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import Avatar from '@mui/material/Avatar';
 import ImageList from '@mui/material/ImageList';
-import { ImageListItem } from '@mui/material';
+import { ImageListItem, Grid , Box  ,Typography} from '@mui/material';
 
 
 
@@ -110,12 +110,40 @@ function App() {
 
 </div>
 
+<div className='col-sm-12'>
+<Typography
+				variant="h1"
+				mb={2}
+				sx={{
+					textAlign: 'center',
+					fontSize: { xs: '1.4rem', sm: '1.6rem', md: '2rem' },
+				}}
+			>
+				ABOUT PAGE
+			</Typography>
 
+
+
+      <Typography
+				variant="p"
+				mb={2}
+				sx={{
+					textAlign: 'center',
+					fontSize: { xs: '1.0rem', sm: '1.3rem', md: '1.6rem' },
+				}}
+			>
+				While containers can be nested, most layouts do not require a nested container.
+			</Typography>
+</div>
 
 
 </div>
 
     </div>
+
+
+
+
   );
 }
 
