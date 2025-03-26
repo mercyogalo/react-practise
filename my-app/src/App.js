@@ -2,7 +2,9 @@ import React from 'react';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import Avatar from '@mui/material/Avatar';
 import ImageList from '@mui/material/ImageList';
-import { ImageListItem, Grid , Box  ,Typography} from '@mui/material';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { ImageListItem , Box ,Typography} from '@mui/material';
 
 
 
@@ -74,12 +76,33 @@ function App() {
     },
   ];
  
-    
+  const darkTheme = createTheme({
+    palette: {
+      mode:{
+        main:'#e9ff00',
+      },
+      primary: {
+        main: '#191919',
+      },
+     
+    },
+  });
 
 
   return (
     <div className="App container">
     <div className="row">
+
+<div className='col-sm-12'>
+<ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <main>This app is using some mode</main>
+    </ThemeProvider>
+</div>
+
+
+
+
     <div className="col-sm-12"> 
   
   <AvatarGroup total={10}>
@@ -132,8 +155,14 @@ function App() {
 					fontSize: { xs: '1.0rem', sm: '1.3rem', md: '1.6rem' },
 				}}
 			>
-				While containers can be nested, most layouts do not require a nested container.
+				Welcome to Skillydon Solutions! We are a dynamic and innovative company committed to providing high-quality digital solutions for small and medium-sized businesses. Our expertise spans across web development, project management, and a variety of technology services, with a special focus on delivering tailored solutions to meet your business needs.
 			</Typography>
+
+
+
+
+
+
 </div>
 
 
