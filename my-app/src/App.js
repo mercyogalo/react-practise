@@ -2,9 +2,8 @@ import React from 'react';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import Avatar from '@mui/material/Avatar';
 import ImageList from '@mui/material/ImageList';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import { ImageListItem , Box ,Typography} from '@mui/material';
+import { ImageListItem ,Typography} from '@mui/material';
+
 
 
 
@@ -76,29 +75,12 @@ function App() {
     },
   ];
  
-  const darkTheme = createTheme({
-    palette: {
-      mode:{
-        main:'#e9ff00',
-      },
-      primary: {
-        main: '#191919',
-      },
-     
-    },
-  });
 
 
   return (
     <div className="App container">
     <div className="row">
 
-<div className='col-sm-12'>
-<ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <main>This app is using some mode</main>
-    </ThemeProvider>
-</div>
 
 
 
@@ -159,11 +141,9 @@ function App() {
 			</Typography>
 
 
-
-
-
-
 </div>
+
+
 
 
 </div>
