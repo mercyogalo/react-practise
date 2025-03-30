@@ -47,7 +47,7 @@ function App() {
     {
       url: 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/747/original/Oreo_Milkshake_Recipe_-_Golightly_Food.jpeg?1743352488',
       title: 'Milkshakes',
-      width: '20%',
+      width: '25%',
     },
 
     {
@@ -194,6 +194,19 @@ function App() {
 </div>
 
 <div className='col-sm-12 mb-2 '>
+
+<Typography
+				variant="h1"
+				mb={2}
+        mt={2}
+				sx={{
+					textAlign: 'center',
+					fontSize: { xs: '1.4rem', sm: '1.6rem', md: '2rem' },
+				}}
+			>
+				OUR FOODS
+			</Typography>
+
 <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
       {images.map((image) => (
         <ImageButton
