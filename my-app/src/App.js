@@ -6,6 +6,7 @@ import { ImageListItem ,Typography} from '@mui/material';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
+import Slide_show from './Slide_show';
 
 
 
@@ -144,6 +145,13 @@ function App() {
   <Avatar alt="Trevor Henderson" src="/static/images/avatar/5.jpg" />
 </AvatarGroup>
 </div>   
+
+
+<div className="col-sm-12">
+  <Slide_show />
+</div>
+
+
 
 
 <div className="col-sm-12">
