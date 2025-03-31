@@ -33,67 +33,54 @@ className="mySwiper"
   className="parallax-bg"
   style={{
     'background-image':
-      'url(https://swiperjs.com/demos/images/nature-1.jpg)',
+      'url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/915/original/8_Chinese_Restaurants_in_Phoenix_for_an_Authentically_Delicious_Feast.jpeg?1743452294)',
   }}
   data-swiper-parallax="-23%"
 ></div>
+
 <SwiperSlide>
   <div className="title" data-swiper-parallax="-300">
-    Slide 1
+  Delicious Dining, Perfectly Crafted
   </div>
-  <div className="subtitle" data-swiper-parallax="-200">
-    Subtitle
-  </div>
+  
   <div className="text" data-swiper-parallax="-100">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-      dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-      laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-      Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-      Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-      ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-      tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+    Indulge in an unforgettable culinary experience with our expertly crafted dishes, made from the finest ingredients and served with passion. Every meal tells a story of flavor.
     </p>
   </div>
 </SwiperSlide>
+
+
 <SwiperSlide>
   <div className="title" data-swiper-parallax="-300">
-    Slide 2
+  Fresh Flavors, Local Ingredients
   </div>
-  <div className="subtitle" data-swiper-parallax="-200">
-    Subtitle
-  </div>
+
   <div className="text" data-swiper-parallax="-100">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-      dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-      laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-      Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-      Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-      ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-      tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+    Savor the taste of fresh, locally sourced ingredients, skillfully prepared to bring out the best of seasonal flavors. We believe in serving only the finest dishes that showcase the bounty of the region.
     </p>
   </div>
 </SwiperSlide>
+
+
+
+
 <SwiperSlide>
   <div className="title" data-swiper-parallax="-300">
-    Slide 3
+  A Warm Welcome Awaits You
   </div>
-  <div className="subtitle" data-swiper-parallax="-200">
-    Subtitle
-  </div>
+
   <div className="text" data-swiper-parallax="-100">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-      dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-      laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-      Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-      Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-      ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-      tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+    From the moment you step through our doors, you're treated like family. Enjoy a cozy atmosphere, exceptional service, and a welcoming ambiance designed for every occasion.
     </p>
   </div>
 </SwiperSlide>
+
+
+
+
 </Swiper>
 
 

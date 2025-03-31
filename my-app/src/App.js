@@ -138,9 +138,6 @@ function App() {
 
 
 
-
-
-<div className='col-sm-12'>
 <Typography
 				variant="h1"
 				mb={2}
@@ -153,21 +150,39 @@ function App() {
 			</Typography>
 
 
-
+<div className='col-sm-5'>
       <Typography
 				variant="p"
 				mb={2}
 				sx={{
 					textAlign: 'center',
-					fontSize: { xs: '1.0rem', sm: '1.3rem', md: '1.6rem' },
+					fontSize: { xs: '0.6rem', sm: '0.9rem', md: '1.2rem' },
 				}}
 			>
 				Welcome to Skillydon Solutions! We are a dynamic and innovative company committed to providing high-quality digital solutions for small and medium-sized businesses. Our expertise spans across web development, project management, and a variety of technology services, with a special focus on delivering tailored solutions to meet your business needs.
 			</Typography>
 
-
-
 </div>
+
+
+<div className='col-sm-6'>
+		{/* Image Banner */}
+    <Box
+				component="img"
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/917/original/0f5fb0c3-4d09-4735-b23d-22c9344bdfc0.jpeg?1743453912"
+				alt="About us"
+				sx={{
+					maxHeight: '100%',
+					width: '400px',
+					height: { xs: '30vh', sm: '40vh', md: '50vh' },
+					objectFit: 'cover',
+				}}
+			/>
+</div>
+
+
+
+
 
 <div className='col-sm-12 mb-2 '>
 
