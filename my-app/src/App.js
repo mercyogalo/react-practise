@@ -4,6 +4,8 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Slide_show from './Slide_show';
+import './index.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
@@ -216,6 +218,31 @@ function App() {
         </ImageButton>
       ))}
     </Box>
+
+
+
+
+
+
+<footer>
+  <div className='col-sm-4'>
+  <FontAwesomeIcon icon="fa-brands fa-facebook" />
+  </div>
+
+  <div className='col-sm-4'>
+
+  </div>
+
+  <div className='col-sm-4'>
+
+</div>
+
+
+</footer>
+
+
+
+
 
 
 </div>
